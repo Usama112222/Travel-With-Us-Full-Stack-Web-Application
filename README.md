@@ -15,16 +15,16 @@ The application allows users to explore and manage travel bookings securely whil
 ## Screenshots
 
 ### Home Page
-![Home Page](images/home.png)
+![Home Page](images/home.PNG)
 
 ### Login Page
-![Login Page](images/login.png)
+![Login Page](images/login.PNG)
 
-### Booking Page
-![Booking Page](images/booking.png)
+### About Page
+![About Page](images/about.PNG)
 
-### Admin Dashboard
-![Admin Dashboard](images/admin-dashboard.png)
+### Services Page
+![Services Page](images/services.PNG)
 
 > Ensure screenshots are saved in the `images/` directory and committed to GitHub.
 
