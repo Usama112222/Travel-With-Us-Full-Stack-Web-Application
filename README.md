@@ -20,11 +20,11 @@ The application allows users to explore and manage travel bookings securely whil
 ### Login Page
 ![Login Page](images/login.png)
 
-### Booking Page
-![Booking Page](images/booking.png)
+### About Page
+![About Page](images/about.PNG)
 
-### Admin Dashboard
-![Admin Dashboard](images/admin-dashboard.png)
+### Services Page
+![Services Page](images/services.PNG)
 
 > Ensure screenshots are saved in the `images/` directory and committed to GitHub.
 
@@ -81,27 +81,21 @@ The application allows users to explore and manage travel bookings securely whil
 
 ### Clone the Repository
 ```bash
-git clone https://github.com/your-username/your-repo-name.git
-cd your-repo-name
+git clone https://github.com/Usama112222/Travel-With-Us-Full-Stack-Web-Application.git
+cd Travel-With-Us-Full-Stack-Web-Application
 Frontend Setup
 cd client
 npm install
 npm start
-Runs on:
-
-http://localhost:3000
+# Runs on http://localhost:3000
 Backend Setup
 cd server
 npm install
 node index.js
-Runs on:
-
-http://localhost:5000
+# Runs on http://localhost:5000
 Database Setup
-Create a MySQL database:
-
 CREATE DATABASE travel_with_us;
-Update your database credentials in the backend config file.
+Update your backend config with database credentials.
 
 Future Enhancements
 Role-based access with JWT
@@ -117,19 +111,17 @@ Automated testing for frontend and backend
 Author
 Usama Liaqat
 
-
 License
 This project is licensed under the MIT License.
 
 
 ---
 
-This README includes everything a **GitHub visitor** would expect:  
-- Live link  
-- Screenshots  
-- Features  
-- Tech stack  
-- Installation instructions  
-- Future improvements  
+## ✅ **Step 5: Stage, commit, and push**
 
----
+Once all conflicts are removed:
+
+```bash
+git add README.md images/home.png
+git commit -m "Resolve merge conflicts and add screenshots"
+git push origin main
