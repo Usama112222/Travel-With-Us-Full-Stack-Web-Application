@@ -359,7 +359,7 @@
                     })
                     .then(data => {
                         console.log('Success:', data);
-                        // window.location.reload();
+                        alert("trip created successfully")
                         fetchAndDisplayTrips();
                         form.reset();
                     })
@@ -472,6 +472,7 @@
                 if (!response.ok) {
                     throw new Error('Network response was not ok');
                 }
+                alert("trip deleted successfully")
                 fetchAndDisplayTrips();
             }).catch(error => {
                 console.error('Deletion error:', error);
@@ -492,6 +493,8 @@
                 if (!response.ok) {
                     throw new Error('Network response was not ok');
                 }
+                alert("booking deleted successfully")
+
                 fetchAndDisplayBooking();
             }).catch(error => {
                 console.error('Deletion error:', error);

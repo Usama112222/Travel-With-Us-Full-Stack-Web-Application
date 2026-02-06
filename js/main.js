@@ -428,6 +428,8 @@
         })
         .then(data => {
           console.log('Booking successful:', data);
+          alert("Booking successful")
+          form.reset();
           // Handle success
         })
         .catch(error => {
@@ -468,6 +470,8 @@
         })
         .then(data => {
           console.log('Success:', data);
+          alert("review submitted successfully")
+
           form.reset();
           fetchReviews()
           initializeCarousel();

@@ -585,6 +585,11 @@
   height: 220px;
 }
 
+.validation-message {
+  color: red;
+  font-size: 0.8em;
+}
+
 /* .testemonial-main {
   background: linear-gradient(rgba(15, 23, 43, 0.5), rgba(15, 23, 43, 0.5)),
     url(../img/booking-bg.jpg);

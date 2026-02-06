@@ -10,7 +10,7 @@ document.addEventListener("DOMContentLoaded", function () {
     const password = document.getElementById("password").value;
     // Replace with your actual login API endpoint
     const loginApiUrl = "http://localhost:80/api/auth/login";
-   
+
     fetch(loginApiUrl, {
       method: "POST",
       headers: {
@@ -51,21 +51,25 @@ document.addEventListener("DOMContentLoaded", function () {
   signUpForm.addEventListener("submit", function (event) {
     event.preventDefault();
 
-    const username = document.getElementById("username").value;
     const email = document.getElementById("email").value;
+    const username = document.getElementById("username").value;
     const password = document.getElementById("password").value;
     const confirmPassword = document.getElementById("confirmpassword").value;
+
+    if (!/^[A-Za-z]/.test(username)) {
+      alert("Username must start with an alphabet.");
+      return; // Exit the function and do not submit the form
+    }
+
+    if (password.length < 8) {
+      alert("Password must be of atleast 8 character long.");
+      return; // Exit the function and do not submit the form
+    }
     if (password !== confirmPassword) {
       alert("Password and confirm password must be same.");
       return; // Exit the function and do not submit the form
     }
-    console.log(
-      "signup form=====>",
-      username,
-      email,
-      password,
-      confirmPassword
-    );
+
     // Set to your actual signup API endpoint
     const signUpApiUrl = "http://localhost:80/api/auth/signup";
 
