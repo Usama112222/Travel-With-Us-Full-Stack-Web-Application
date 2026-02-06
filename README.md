@@ -14,9 +14,9 @@ The application allows users to explore and manage travel bookings securely whil
 
 ## Screenshots
 
-### Home Page
-![Home Page](images/home.PNG)
 
+### Home Page
+![Home Page](images/home.png)
 
 ### Login Page
 ![Login Page](images/login.PNG)
