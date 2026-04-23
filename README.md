@@ -87,12 +87,12 @@ Frontend Setup
 cd client
 npm install
 npm start
-# Runs on http://localhost:3000
+Runs on http://localhost:3000
 Backend Setup
 cd server
 npm install
 node index.js
-# Runs on http://localhost:5000
+Runs on http://localhost:5000
 Database Setup
 CREATE DATABASE travel_with_us;
 Update your backend config with database credentials.
