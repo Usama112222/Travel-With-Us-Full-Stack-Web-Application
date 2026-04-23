@@ -108,18 +108,9 @@ Dockerized deployment
 
 Automated testing for frontend and backend
 
-## Author
-## Usama Liaqat
-
-## License
-This project is licensed under the MIT License.
+### Author
+### Usama Liaqat
 
 
 
 
-Once all conflicts are removed:
-
-```bash
-git add README.md images/home.png
-git commit -m "Resolve merge conflicts and add screenshots"
-git push origin main
