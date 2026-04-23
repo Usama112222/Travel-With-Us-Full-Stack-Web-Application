@@ -18,7 +18,7 @@ The application allows users to explore and manage travel bookings securely whil
 ![Home Page](images/home.png)
 
 ### Login Page
-![Login Page](images/login.png)
+![Login Page](images/login.PNG)
 
 ### About Page
 ![About Page](images/about.PNG)
@@ -80,7 +80,7 @@ The application allows users to explore and manage travel bookings securely whil
 - Git
 
 ### Clone the Repository
-```bash
+
 git clone https://github.com/Usama112222/Travel-With-Us-Full-Stack-Web-Application.git
 cd Travel-With-Us-Full-Stack-Web-Application
 Frontend Setup
@@ -97,7 +97,7 @@ Database Setup
 CREATE DATABASE travel_with_us;
 Update your backend config with database credentials.
 
-Future Enhancements
+## Future Enhancements
 Role-based access with JWT
 
 Admin analytics dashboard
@@ -108,16 +108,14 @@ Dockerized deployment
 
 Automated testing for frontend and backend
 
-Author
-Usama Liaqat
+## Author
+## Usama Liaqat
 
-License
+## License
 This project is licensed under the MIT License.
 
 
----
 
-## ✅ **Step 5: Stage, commit, and push**
 
 Once all conflicts are removed:
 
